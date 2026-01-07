@@ -57,12 +57,14 @@ ol {
   margin: 0 30px;
   gap: 30px;
   inline-size: 100%;
+  align-items: flex-end;
 }
 .result {
   position: relative;
-  align-items: flex-end;
+  
 }
 .result__video-container {
+  position: relative;
   inline-size: 711px;
   min-height: 386px;
 }
@@ -189,6 +191,9 @@ ol {
 }
 .content__accent {
   color: #545050;
+}
+.content__list-container {
+  position: relative;
 }
 .content__list {
   position: relative;
